@@ -12,13 +12,13 @@
 <title>Insert title here</title>
 </head>
 <body>
- <%-- <%Object[] row=(Object[])request.getAttribute("name");
+ <%Object[] row=(Object[])request.getAttribute("name");
     String ID=(String)row[0];
-    String Name=(String)row[1];t
+    String Name=(String)row[1];
     System.out.println(Name);
 
-%>  --%>
-<%ArrayList<Object> row=(ArrayList<Object>)request.getAttribute("name");
+%> 
+<%-- <%ArrayList<Object> row=(ArrayList<Object>)request.getAttribute("name");
     
     Iterator i=row.iterator();
     while(i.hasNext())
@@ -28,11 +28,11 @@
     	
     }
 
-%> 
+%>  --%>
 
 
-<%-- <%= ID %>:<input type="text" ><br>
-<%= Name %>:<input type="text" ><br>  --%>
+<%= ID %>:<input type="text" ><br>
+<%= Name %>:<input type="text" ><br> 
 
 
 <%-- 
